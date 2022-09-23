@@ -64,6 +64,7 @@
                 name="indoor-outdoor"
                 type="radio"
                 value="indoor"
+                checked
               />
               Indoor</label
             >
@@ -76,6 +77,30 @@
               />Outdoor</label
             >
           </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input
+              name="personality"
+              id="loving"
+              type="checkbox"
+              value="loving"
+              checked
+            />
+            <label for="loving">Loving</label>
+            <input
+              id="lazy"
+              name="personality"
+              value="personality"
+              type="checkbox"
+            /><label for="lazy">Lazy</label>
+            <input
+              id="energetic"
+              name="personality"
+              value="energetic"
+              type="checkbox"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
           <input
             type="text"
             name="catphotourl"
@@ -86,5 +111,11 @@
         </form>
       </section>
     </main>
+    <footer>
+      <p>
+        No Copyright -
+        <a href="https://www.freecodecamp.org"> freeCodeCamp.org</a>
+      </p>
+    </footer>
   </body>
 </html>
